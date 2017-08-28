@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{90158D57-099A-80BC-1CC0-FE35A2B45281}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Web v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>WebPlayer:6</UnityBuildTarget>
+    <UnityVersion>5.3.5f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\DesignPatternExample\Abstract Factory\AbstractFactory.cs" />
+    <Compile Include="Assets\DesignPatternExample\Abstract Factory\AbstractFactoryTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Adapter\Adapter.cs" />
+    <Compile Include="Assets\DesignPatternExample\Adapter\AdapterTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Bridge\Bridge.cs" />
+    <Compile Include="Assets\DesignPatternExample\Bridge\BridgeTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Bridge\Bridge_Window.cs" />
+    <Compile Include="Assets\DesignPatternExample\Builder\Builder.cs" />
+    <Compile Include="Assets\DesignPatternExample\Builder\BuilderTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Chain of Responsibility\ChainofResponsibility.cs" />
+    <Compile Include="Assets\DesignPatternExample\Chain of Responsibility\ChainofResponsibilityTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Command\Command.cs" />
+    <Compile Include="Assets\DesignPatternExample\Command\CommandTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Composite\Composite.cs" />
+    <Compile Include="Assets\DesignPatternExample\Composite\CompositeTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Decorator\Decorator.cs" />
+    <Compile Include="Assets\DesignPatternExample\Decorator\DecoratorTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Decorator\ShapeDecorator.cs" />
+    <Compile Include="Assets\DesignPatternExample\Factory Method\FactoryMethod.cs" />
+    <Compile Include="Assets\DesignPatternExample\Factory Method\FactoryMethodTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Flyweight\Flyweight.cs" />
+    <Compile Include="Assets\DesignPatternExample\Flyweight\FlyweightTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Mediator\Mediator.cs" />
+    <Compile Include="Assets\DesignPatternExample\Mediator\MediatorTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Memento\Memento.cs" />
+    <Compile Include="Assets\DesignPatternExample\Memento\MementoTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Observer\Observer.cs" />
+    <Compile Include="Assets\DesignPatternExample\Observer\ObserverTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Prototype\Prototype.cs" />
+    <Compile Include="Assets\DesignPatternExample\Prototype\PrototypeTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Proxy\Proxy.cs" />
+    <Compile Include="Assets\DesignPatternExample\Proxy\ProxyTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Singleton\ClassWithCounter.cs" />
+    <Compile Include="Assets\DesignPatternExample\Singleton\Singleton.cs" />
+    <Compile Include="Assets\DesignPatternExample\Singleton\SingletonTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\State\State.cs" />
+    <Compile Include="Assets\DesignPatternExample\State\StateTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Strategy\Strategy.cs" />
+    <Compile Include="Assets\DesignPatternExample\Strategy\StrategyTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Template Method\TemplateMethod.cs" />
+    <Compile Include="Assets\DesignPatternExample\Template Method\TemplateMethodTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Visitor\ShapeVisitor.cs" />
+    <Compile Include="Assets\DesignPatternExample\Visitor\ShapeVisitorTest.cs" />
+    <Compile Include="Assets\DesignPatternExample\Visitor\Visitor.cs" />
+    <Compile Include="Assets\DesignPatternExample\Visitor\VisitorTest.cs" />
+    <Compile Include="Assets\ExampleCode.cs" />
+    <Compile Include="Assets\ExampleCode\3DBuildToolWithPattern.cs" />
+    <Compile Include="Assets\ExampleCode\3DBuildToolWithoutDecoratorPattern.cs" />
+    <Compile Include="Assets\ExampleCode\3DBuildToolWithoutPattern.cs" />
+    <Compile Include="Assets\ExampleCode\3DBuildToolWithoutVisitorPattern.cs" />
+    <Compile Include="Assets\ExampleCode\AIWithoutState.cs" />
+    <Compile Include="Assets\ExampleCode\AchievementSaveWithoutPattern.cs" />
+    <Compile Include="Assets\ExampleCode\AchievementWithoutPattern.cs" />
+    <Compile Include="Assets\ExampleCode\AttrFactoryWithoutPattern.cs" />
+    <Compile Include="Assets\ExampleCode\CharacterAndAttr.cs" />
+    <Compile Include="Assets\ExampleCode\CharacterAndPrefixBaseAttr.cs" />
+    <Compile Include="Assets\ExampleCode\CharacterAndWeapon.cs" />
+    <Compile Include="Assets\ExampleCode\MediatorWithoutPattern.cs" />
+    <Compile Include="Assets\ExampleCode\NewRoleWithFactory.cs" />
+    <Compile Include="Assets\ExampleCode\NewRoleWithoutFactory.cs" />
+    <Compile Include="Assets\ExampleCode\ResourceAssetFactoryWithCache.cs" />
+    <Compile Include="Assets\ExampleCode\SoldierCaptiveBuilder.cs" />
+    <Compile Include="Assets\NTG-Strategy\IAttrStrategy.cs" />
+    <Compile Include="Assets\NTG-Strategy\ICharacter.cs" />
+    <Compile Include="Assets\NTG-Strategy\ICharacterAttr.cs" />
+    <Compile Include="Assets\NTG-Strategy\IPlayer.cs" />
+    <Compile Include="Assets\NTG-Strategy\PlayerAttr.cs" />
+    <Compile Include="Assets\NTG-Strategy\PlayerAttrStrategy.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\AP\APSystem.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Achievement\AchievementSaveData.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Achievement\AchievementSystem.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\BaseClass\IGameSystem.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\BaseClass\IUserInterface.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Camp\CampSystem.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Camp\CaptiveCamp.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Camp\ICamp.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Camp\Script\CampOnClick.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Camp\SoldierCamp.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Camp\TrainCommand\ITrainCommand.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Camp\TrainCommand\TrainCaptiveCommand.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Camp\TrainCommand\TrainSoldierCommand.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Camp\TrainCost\ITrainCost.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Camp\TrainCost\TrainCost.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterAI\AIState\AttackAIState.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterAI\AIState\ChaseAIState.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterAI\AIState\GuardAIState.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterAI\AIState\IAIState.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterAI\AIState\IdleAIState.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterAI\AIState\MoveAIState.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterAI\EnemyAI.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterAI\ICharacterAI.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterAI\SoldierAI.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterBuilder\CharacterBuilderSystem.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterBuilder\EnemyBuilder.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterBuilder\ICharacterBuilder.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterBuilder\SoldierBuilder.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterSystem.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterVisitor\ICharacterVisitor.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterVisitor\SoldierAddMedalVisitor.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\CharacterVisitor\UnitCountVisitor.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\Enemy\EnemyCaptive.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\Enemy\EnemyElf.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\Enemy\EnemyOgre.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\Enemy\EnemyTroll.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\Enemy\IEnemy.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\ICharacter.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\Script\CharacterMovement.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\Script\EffectDelete.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\Script\SoldierClickScript.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\Soldier\ISoldier.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\Soldier\SoldierCaptain.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\Soldier\SoldierCaptive.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\Soldier\SoldierRookie.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Character\Soldier\SoldierSergeant.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Factory\AssetFactory\IAssetFactory.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Factory\AssetFactory\LocalAssetFactory.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Factory\AssetFactory\RemoteAssetFactory.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Factory\AssetFactory\ResourceAssetFactory.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Factory\AssetFactory\ResourceAssetProxyFactory.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Factory\AttrFactory\AttrFactory.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Factory\AttrFactory\IAttrFactory.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Factory\CharacterFactory\CharacterFactory.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Factory\CharacterFactory\CharacterFactory_Generic.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Factory\CharacterFactory\ICharacterFactory.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Factory\CharacterFactory\TCharacterFactory.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Factory\PBDFactory.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Factory\WeaponFactory\IWeaponFactory.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Factory\WeaponFactory\WeaponFactory.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameAttr\CharacterAttr\AttrStrategy\EnemyAttrStrategy.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameAttr\CharacterAttr\AttrStrategy\IAttrStrategy.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameAttr\CharacterAttr\AttrStrategy\SoldierAttrStrategy.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameAttr\CharacterAttr\BaseAttr\BaseAttr.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameAttr\CharacterAttr\BaseAttr\BaseAttrDecorator.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameAttr\CharacterAttr\EnemyAttr.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameAttr\CharacterAttr\ICharacterAttr.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameAttr\CharacterAttr\SoldierAttr.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameAttr\WeaponAttr\WeaponAttr.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventObserver\ComboObserver\ComboObserver.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventObserver\EnemyKilledObserver\EnemyKilledObserverAchievement.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventObserver\EnemyKilledObserver\EnemyKilledObserverCaptiveCamp.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventObserver\EnemyKilledObserver\EnemyKilledObserverStageScore.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventObserver\EnemyKilledObserver\EnemyKilledObserverUI.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventObserver\IGameEventObserver.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventObserver\NewStageObserver\NewStageObserverAchievement.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventObserver\NewStageObserver\NewStageObserverSoldierAddMedal.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventObserver\SoldierKilledObserver\SoldierKilledObserverAchievement.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventObserver\SoldierKilledObserver\SoldierKilledObserverUI.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventObserver\SoldierUpgateObserver\SoldierUpgateObserverUI.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventSubject\EnemyKilledSubject.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventSubject\IGameEventSubject.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventSubject\NewStageSubject.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventSubject\SoldierKilledSubject.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventSubject\SoldierUpgateSubject.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameEvent\GameEventSystem.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\GameLoop.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\PBaseDefenseGame.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\PBaseDefenseGameUnitTest.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\SceneState\BattleState.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\SceneState\ISceneState.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\SceneState\MainMenuState.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\SceneState\SceneStateController.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\SceneState\StartState.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Stage\StageData\IStageData.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Stage\StageData\NormalStageData.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Stage\StageHandler\BossStageHandler.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Stage\StageHandler\IStageHandler.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Stage\StageHandler\NormalStageHandler.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Stage\StageScore\IStageScore.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Stage\StageScore\StageScoreEnemyKilledCount.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Stage\StageSystem.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Tools\UITool.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Tools\UnityTool.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\UI\CampInfoUI.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\UI\GamePauseUI.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\UI\GameStateInfoUI.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\UI\SoldierInfoUI.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Weapon\IWeapon.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Weapon\WeaponGun.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Weapon\WeaponRifle.cs" />
+    <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Weapon\WeaponRocket.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
