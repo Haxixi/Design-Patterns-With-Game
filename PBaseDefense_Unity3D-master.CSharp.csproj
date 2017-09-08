@@ -123,6 +123,18 @@
     <Compile Include="Assets\ExampleCode\NewRoleWithoutFactory.cs" />
     <Compile Include="Assets\ExampleCode\ResourceAssetFactoryWithCache.cs" />
     <Compile Include="Assets\ExampleCode\SoldierCaptiveBuilder.cs" />
+    <Compile Include="Assets\Missile Systems\Improved Tracer\Improved_Tracer.cs" />
+    <Compile Include="Assets\Missile Systems\Improved Tracer\ShootImprovedTracer.cs" />
+    <Compile Include="Assets\Missile Systems\Missile\Missile.cs" />
+    <Compile Include="Assets\Missile Systems\Missile\ShootObject.cs" />
+    <Compile Include="Assets\Missile Systems\ParticleDespawn.cs" />
+    <Compile Include="Assets\Missile Systems\Tracer\ShootTracer.cs" />
+    <Compile Include="Assets\Missile Systems\Tracer\Tracer.cs" />
+    <Compile Include="Assets\NTG-Factory\Character.cs" />
+    <Compile Include="Assets\NTG-Factory\CharacterFactory_Generic.cs" />
+    <Compile Include="Assets\NTG-Factory\ICharacterFactory_Generic.cs" />
+    <Compile Include="Assets\NTG-Factory\NTGFactory.cs" />
+    <Compile Include="Assets\NTG-Factory\Test.cs" />
     <Compile Include="Assets\NTG-Strategy\IAttrStrategy.cs" />
     <Compile Include="Assets\NTG-Strategy\ICharacter.cs" />
     <Compile Include="Assets\NTG-Strategy\ICharacterAttr.cs" />
@@ -241,6 +253,9 @@
     <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Weapon\WeaponGun.cs" />
     <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Weapon\WeaponRifle.cs" />
     <Compile Include="Assets\P-BaseDefenseAssets\GameCode\Weapon\WeaponRocket.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Missile Systems\instructions.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

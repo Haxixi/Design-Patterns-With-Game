@@ -27,7 +27,7 @@ namespace NTG
 
             SetCharacterAttr(_PlayerAttr);
 
-            Debug.Log("AttrName    " + PlayerAttr._AttrName + "    ShootSpeed    " + PlayerAttr._ShootSpeed + "    LV    " + PlayerAttr._LV + "    CurMaxEXP    " + _playerAttrStrategy.CurMaxEXP + "    CurMaxHP    " + _playerAttrStrategy.CurMaxHP + "    CurAttack    " + _playerAttrStrategy.CurAttack + "    CurDefense    " + _playerAttrStrategy.CurDefense);
+            //Debug.Log("AttrName    " + PlayerAttr._AttrName + "    ShootSpeed    " + PlayerAttr._ShootSpeed + "    LV    " + PlayerAttr._LV + "    CurMaxEXP    " + _playerAttrStrategy.CurMaxEXP + "    CurMaxHP    " + _playerAttrStrategy.CurMaxHP + "    CurAttack    " + _playerAttrStrategy.CurAttack + "    CurDefense    " + _playerAttrStrategy.CurDefense);
         }
 
         void Update()
@@ -37,7 +37,7 @@ namespace NTG
                 i++;
                 PlayerAttr.SetLV(i);
                 _playerAttrStrategy.UpdateAttr(PlayerAttr, this);
-                Debug.Log("AttrName    " + PlayerAttr._AttrName + "    ShootSpeed    " + PlayerAttr._ShootSpeed + "    LV    " + PlayerAttr._LV + "    CurMaxEXP    " + _playerAttrStrategy.CurMaxEXP + "    CurMaxHP    " + _playerAttrStrategy.CurMaxHP + "    CurAttack    " + _playerAttrStrategy.CurAttack + "    CurDefense    " + _playerAttrStrategy.CurDefense);
+                //Debug.Log("AttrName    " + PlayerAttr._AttrName + "    ShootSpeed    " + PlayerAttr._ShootSpeed + "    LV    " + PlayerAttr._LV + "    CurMaxEXP    " + _playerAttrStrategy.CurMaxEXP + "    CurMaxHP    " + _playerAttrStrategy.CurMaxHP + "    CurAttack    " + _playerAttrStrategy.CurAttack + "    CurDefense    " + _playerAttrStrategy.CurDefense);
             }
         }
 
